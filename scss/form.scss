@@ -1,0 +1,69 @@
+
+.newUserBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 3px solid black;
+    padding: 10px;
+    min-height: 350px;
+    background-color: #4995fd;
+}
+
+.formField{
+    height: 40px;
+
+}
+
+.form_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin-top: 10px;
+}
+
+#newUser_name{
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nameField{
+    width: 195px;
+}
+
+#email_in{
+    width: 395px;
+}
+
+#uName_in{
+    width: 395px;
+}
+
+#newUser_Password{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pWordFild{
+
+    width: 195px;
+    
+}
+
+.failedField{
+    color: red;
+}
+
+#submit_newuser{
+    background-color: #6ec0e9;
+    border: 2px solid #003a65;
+    width: 150px;   height: 40px;
+    text-align: center;
+    
+    
+}

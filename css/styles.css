@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#mainBody {
+  background-color: #fdfcf3;
+  height: 100%;
+  width: 100%;
+}
+#mainBody nav {
+  background-color: #a0d0ec;
+  width: 95%;
+  height: 75px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+#mainBody #heroBody {
+  background-image: url(../images/heroImg.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 90%;
+  height: 300px;
+  margin: 30px auto;
+}
+#mainBody #displayBody {
+  width: 90%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logOn {
+  background-color: rgba(0, 58, 101, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+#logOn #logOnBox {
+  background-color: #ffebcd;
+  opacity: 1;
+  width: 400px;
+  height: 500px;
+}
+#logOn #logOnBox #logOn_Title {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+#logOn #logOnBox #logOn_Title h1 {
+  margin: 0;
+}
+#logOn #logOnBox #logOn_Input {
+  width: 85%;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 20px auto;
+}
+#logOn #logOnBox #logOn_Input input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 97%;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+}
+#logOn #logOnBox #logOn_Input ::placeholder {
+  color: #a0d0ec;
+}
+#logOn #logOnBox #logOn_Input #logOn_Msg {
+  text-align: center;
+  color: red;
+}
+#logOn #logOnBox .actionBtn {
+  border: 2px solid #003a65;
+  border-radius: 5px;
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  padding-top: 10px;
+  text-align: center;
+}
+#logOn #logOnBox .actionBtn h3 {
+  font-size: 30px;
+}
+#logOn #logOnBox #logOn_Submit_Btn {
+  background-color: #4995fd;
+}
+#logOn #logOnBox #logOn_SingUp_Btn {
+  background-color: #6ec0e9;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav #logOut {
+  width: 150px;
+  height: 40px;
+  background-color: #4995fd;
+}
+nav #logOut a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.newUserBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  padding: 10px;
+  min-height: 350px;
+  background-color: #4995fd;
+}
+
+.formField {
+  height: 40px;
+}
+
+.form_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  margin-top: 10px;
+}
+
+#newUser_name {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nameField {
+  width: 195px;
+}
+
+#email_in {
+  width: 395px;
+}
+
+#uName_in {
+  width: 395px;
+}
+
+#newUser_Password {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pWordFild {
+  width: 195px;
+}
+
+.failedField {
+  color: red;
+}
+
+#submit_newuser {
+  background-color: #6ec0e9;
+  border: 2px solid #003a65;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
